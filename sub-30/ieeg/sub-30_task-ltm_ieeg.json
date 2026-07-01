@@ -1,0 +1,42 @@
+{
+    "TaskName": "ltm",
+    "TaskDescription": "Continuous long-term pre-surgical intracranial EEG monitoring of patients with pharmacoresistant epilepsy.",
+    "Instructions": "Passive long-term clinical monitoring; no task performed.",
+    "InstitutionName": "Sleep-Wake-Epilepsy-Center, Department of Neurology, Inselspital, Bern University Hospital, University of Bern",
+    "InstitutionalDepartmentName": "Department of Neurology (Sleep-Wake-Epilepsy-Center)",
+    "InstitutionAddress": "Freiburgstrasse 18, 3010 Bern, Switzerland",
+    "Manufacturer": "n/a",
+    "ManufacturersModelName": "n/a",
+    "SoftwareVersions": "n/a",
+    "DeviceSerialNumber": "n/a",
+    "iEEGReference": "Median reference across channels (per the SWEC-ETHZ long-term recording protocol; see ReferencesAndLinks).",
+    "ElectrodeManufacturer": "n/a",
+    "PowerLineFrequency": 50.0,
+    "SamplingFrequency": 1024.0,
+    "SoftwareFilters": {
+        "Butterworth4_zerophase": {
+            "Type": "Butterworth",
+            "Order": 4,
+            "Direction": "forward-backward (zero-phase)",
+            "PassbandLowCutoffHz": 0.5,
+            "PassbandHighCutoffHz": 150.0,
+            "Description": "Digital band-pass filter applied at the source (0.5-150 Hz, 4th-order Butterworth, forward-backward)."
+        }
+    },
+    "HardwareFilters": "n/a",
+    "ADCResolution": 16,
+    "ElectricalStimulation": false,
+    "iEEGGround": "n/a",
+    "iEEGPlacementScheme": "Mixed intracranial strip, grid, and depth electrodes; per-contact placement not disclosed (anonymized).",
+    "iEEGElectrodeGroups": "n/a",
+    "RecordingType": "continuous",
+    "RecordingDuration": 102201.0,
+    "ECOGChannelCount": 0,
+    "SEEGChannelCount": 57,
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0
+}

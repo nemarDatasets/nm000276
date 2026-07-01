@@ -1,0 +1,16 @@
+{
+    "onset": {
+        "Description": "Onset of the event, relative to recording start.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event.",
+        "Units": "s"
+    },
+    "trial_type": {
+        "Description": "Event category.",
+        "Levels": {
+            "seizure": "Electrographic (ictal) seizure interval identified by a board-certified epileptologist (Prof. Kaspar Schindler)."
+        }
+    }
+}

@@ -1,0 +1,5 @@
+1.0.0 - Initial BIDS release.
+
+	- Converted from the public SWEC iEEG HDF5 release to BIDS iEEG (BrainVision).
+	- Seizure intervals mapped to events.tsv.
+	- Electrodes/coordinates n/a (anonymized source).
