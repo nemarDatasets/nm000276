@@ -1,0 +1,69 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Francesco Carzaniga": {},
+    "Michael Hersche": {},
+    "Abu Sebastian": {},
+    "Kaspar Schindler": {},
+    "Abbas Rahimi": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.2506.20354",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000276",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000276",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "SWEC iEEG Dataset",
+  "license": "CDLA-Permissive-2.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "3.3 TB (3089 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "A large-scale intracranial EEG dataset comprising 5376 hours of continuous long-term monitoring recordings from 40 patients with pharmacoresistant epilepsy, acquired at the Sleep-Wake-Epilepsy-Center (SWEC), University of Bern. The dataset includes 381 annotated electrographic seizures with precise onset/offset annotations by board-certified epileptologists. Data were recorded using intracranial strip, grid, and depth electrodes at sampling rates of 512 or 1024 Hz and preprocessed with digital band-pass filtering (0.5–150 Hz). The fully anonymized public release is formatted in BIDS-compliant BrainVision format.",
+  "methods_description": "Intracranial EEG recordings were acquired using strip, grid, and depth electrodes with 16-bit analog-to-digital conversion at sampling rates of 512 or 1024 Hz per subject. Data were digitally band-pass filtered (0.5–150 Hz, 4th-order Butterworth, zero-phase) and referenced to the median across channels. Artifact-contaminated channels were removed at the source. Seizure onsets and offsets were annotated by board-certified epileptologist Prof. Kaspar Schindler.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "seizure detection"
+    },
+    {
+      "term": "long-term monitoring"
+    },
+    {
+      "term": "pharmacoresistant epilepsy"
+    },
+    {
+      "term": "neural signal processing"
+    }
+  ],
+  "source_hash": "ea383c3f2b939f633ff67a2905f40a626efb2a1ec851c0bf1d9e788a8e7ef4bb"
+}
