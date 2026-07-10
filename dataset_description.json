@@ -1,33 +1,35 @@
 {
-    "Name": "SWEC iEEG Dataset",
-    "BIDSVersion": "1.9.0",
-    "DatasetType": "raw",
-    "License": "CDLA-Permissive-2.0",
-    "Authors": [
-        "Francesco Carzaniga",
-        "Michael Hersche",
-        "Abu Sebastian",
-        "Kaspar Schindler",
-        "Abbas Rahimi"
-    ],
-    "Acknowledgements": "Intracranial EEG recorded at the Sleep-Wake-Epilepsy-Center (SWEC), Department of Neurology, Inselspital, University of Bern, in collaboration with the Integrated Systems Laboratory, ETH Zurich. Seizure onsets/offsets were annotated by board-certified epileptologist Prof. Kaspar Schindler.",
-    "HowToAcknowledge": "Please cite Carzaniga, Hersche, Sebastian, Schindler & Rahimi, 'A foundation model with multi-variate parallel attention to generate neuronal activity', arXiv:2506.20354 (2025), and the SWEC-ETHZ iEEG Database (http://ieeg-swez.ethz.ch/).",
-    "ReferencesAndLinks": [
-        "https://doi.org/10.48550/arXiv.2506.20354",
-        "http://ieeg-swez.ethz.ch/",
-        "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg"
-    ],
-    "SourceDatasets": [
-        {
-            "URL": "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg",
-            "Version": "public_access"
-        }
-    ],
-    "GeneratedBy": [
-        {
-            "Name": "swec-bids-converter",
-            "Description": "Streaming HDF5 (data/ieeg, \u00b5V) -> BrainVision BIDS conversion; channels indexed in original order, seizures mapped to events, electrodes n/a (anonymized).",
-            "CodeURL": "https://github.com/IBM/multi-variate-parallel-transformer"
-        }
-    ]
+  "Name": "SWEC iEEG Dataset",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "CDLA-Permissive-2.0",
+  "Authors": [
+    "Francesco Carzaniga",
+    "Michael Hersche",
+    "Abu Sebastian",
+    "Kaspar Schindler",
+    "Abbas Rahimi"
+  ],
+  "Acknowledgements": "Intracranial EEG recorded at the Sleep-Wake-Epilepsy-Center (SWEC), Department of Neurology, Inselspital, University of Bern, in collaboration with the Integrated Systems Laboratory, ETH Zurich. Seizure onsets/offsets were annotated by board-certified epileptologist Prof. Kaspar Schindler.",
+  "HowToAcknowledge": "Please cite Carzaniga, Hersche, Sebastian, Schindler & Rahimi, 'A foundation model with multi-variate parallel attention to generate neuronal activity', arXiv:2506.20354 (2025), and the SWEC-ETHZ iEEG Database (http://ieeg-swez.ethz.ch/).",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.48550/arXiv.2506.20354",
+    "http://ieeg-swez.ethz.ch/",
+    "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg"
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg",
+      "Version": "public_access"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "swec-bids-converter",
+      "Description": "Streaming HDF5 (data/ieeg, µV) -> BrainVision BIDS conversion; channels indexed in original order, seizures mapped to events, electrodes n/a (anonymized).",
+      "CodeURL": "https://github.com/IBM/multi-variate-parallel-transformer"
+    }
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000276",
+  "Version": "1.0.0"
 }
