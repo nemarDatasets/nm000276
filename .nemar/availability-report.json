@@ -1,0 +1,298 @@
+{
+  "dataset_id": "nm000276",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:10:26.169Z",
+  "source": null,
+  "complete": false,
+  "completeness": {
+    "files_present": 33,
+    "files_declared": 80,
+    "bytes_present": 3254807628854,
+    "bytes_declared": 3254808175422,
+    "pct_bytes": 0.9999998320736675
+  },
+  "missing": [
+    {
+      "path": "sub-01/ieeg/sub-01_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s9279287296--1115c2b5b8ca60a2e93da2a6f2060fe894a9fd5f0aab90592a30753b6bd05741.eeg",
+      "declared_size": 9279287296,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-02/ieeg/sub-02_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s190333304832--0b304be3c78b7a004302f3641b7b09db05b4f2eb871f3dea6091e04ccf1e70d8.eeg",
+      "declared_size": 190333304832,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-03/ieeg/sub-03_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s114458234880--99fac1dd2a21868e1b994be78c32fb1f79503b900465a9dd1f67fc0f53764369.eeg",
+      "declared_size": 114458234880,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-04/ieeg/sub-04_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s74734764032--2f2fdf155fe885fa6df1d8b708885435698d554a2498085b3c42208bb3a189bc.eeg",
+      "declared_size": 74734764032,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-05/ieeg/sub-05_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s20030160896--85a15874452ee733179e8a9c1458b5fdddca72f42a626fe5a374dfe6c7ba6a3c.eeg",
+      "declared_size": 20030160896,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-06/ieeg/sub-06_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s19201654784--7eb1ad958009b1bfc9057eb73762028b40ed5b7d2e910de1b25f3f2f1ec16156.eeg",
+      "declared_size": 19201654784,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-08/ieeg/sub-08_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s43906179072--6495b096273e35ccaab0f3e0487bfc334b2e9dcc49fc218c4d2b3a0a1c4e197a.eeg",
+      "declared_size": 43906179072,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-09/ieeg/sub-09_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s68885151744--2c651b3c9cfe41e1ffc47958873e474cde42707129eb688ce51ed734a9a63d37.eeg",
+      "declared_size": 68885151744,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-10/ieeg/sub-10_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s38127513600--ac7cdba32135035cd234011e4f3d71e30c1f47e4ca04edd33adc7895f25a6cc2.eeg",
+      "declared_size": 38127513600,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-11/ieeg/sub-11_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s129333960704--7997e40355acae75c468c991f32b8d951bc73f0386ab4ed218c30f8b060dd5d4.eeg",
+      "declared_size": 129333960704,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-12/ieeg/sub-12_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s28931850240--7e4a3d6e6285aa6d8988f23325afc7516bbdffdeea669221a306b699d7174f8d.eeg",
+      "declared_size": 28931850240,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-15/ieeg/sub-15_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s41104261120--37945e64fdea9d37b6f5c40b49ab540d6aab04c0da975afad61c00cdc18e84d0.eeg",
+      "declared_size": 41104261120,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-16/ieeg/sub-16_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s158063001600--616fa623bbdafbf092d018406308d68d48745385a4bdfcf639a71b3153b96433.eeg",
+      "declared_size": 158063001600,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-18/ieeg/sub-18_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s57115803648--3e0ca9663328b429b4a32e5975f224a6f2b1804bca71b980c82037fefbe6bbd8.eeg",
+      "declared_size": 57115803648,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-19/ieeg/sub-19_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s141556531200--dceb80e37dd466252f889f189c7c97fff3c2a53543aca7562ba857d7f76c4282.eeg",
+      "declared_size": 141556531200,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-20/ieeg/sub-20_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s88768823296--60e3ed6ddc5e75e23424e4d4cc7302055cce833a4df40e4e95c3dbed8caeb2aa.eeg",
+      "declared_size": 88768823296,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-22/ieeg/sub-22_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s127004688384--f6d297c09d413d71cb069d0823700ba0675329dd31adf1f1ccf2437684872a4d.eeg",
+      "declared_size": 127004688384,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-23/ieeg/sub-23_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s40240189440--637ac9f5dd613e6d64a86ef0955f6cd1ea24e29835a08c7a646956947e2da619.eeg",
+      "declared_size": 40240189440,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-24/ieeg/sub-24_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s81542909952--254922c00b53cd145a16050bb2df986e4c5bd6e970a009b1d7e4b20787e9c603.eeg",
+      "declared_size": 81542909952,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-27/ieeg/sub-27_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s109011652608--19f1b24aa7c297b595d48b01d1d92eb90fbe216dc4e254619ba02ce3b0636730.eeg",
+      "declared_size": 109011652608,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-27/ieeg/sub-27_task-ltm_ieeg.vhdr",
+      "key": "SHA256E-s1126--49ae85c274fed25b22dfbbe2891569b8019f1fd1eba5eb1bf4eb0106c3d02343.vhdr",
+      "declared_size": 1126,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-28/ieeg/sub-28_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s89093820416--4462054a2d3a2d099fe6cc71910fe6ef22cea2a177c74083b40592c75fce3a65.eeg",
+      "declared_size": 89093820416,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-29/ieeg/sub-29_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s155911061504--3fa740f2e56951931cf83d74ed39b9da44ae4077d5137a568eae644fec126a09.eeg",
+      "declared_size": 155911061504,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-30/ieeg/sub-30_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s23861071872--0c4175965e55953e62d483a8702c86d8b666ab6273a9814f7ee7808bfa05a336.eeg",
+      "declared_size": 23861071872,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-31/ieeg/sub-31_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s62116945920--b2cbcce377dbea7c4602a7134afa40fe4c4f07916723f79baa3ced0c4e43ca44.eeg",
+      "declared_size": 62116945920,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-32/ieeg/sub-32_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s167232143360--64703de5a5fc1401b9d8742afa508380f3b5a7a8229f35f9d7dc4ecd2b6b3c2b.eeg",
+      "declared_size": 167232143360,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-32/ieeg/sub-32_task-ltm_ieeg.vhdr",
+      "key": "SHA256E-s1432--16c8c19433f1891a23c58d167b2fc8dfd9ce4735767566a19044d86aa1172799.vhdr",
+      "declared_size": 1432,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-33/ieeg/sub-33_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s105991350272--fd83c1d98e55adfc00f217e7e07137a7d80c8b6ef4aa190871e137035ec25d51.eeg",
+      "declared_size": 105991350272,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-34/ieeg/sub-34_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s57286754304--101d1da835473cd65b5906150dbefef79a7e6073505607547c7c7b99f7c5410e.eeg",
+      "declared_size": 57286754304,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-35/ieeg/sub-35_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s43752079360--f4664ea24e62d3327f7044b968eed08e5acceff3a2d475920736c7be1ec3f6a9.eeg",
+      "declared_size": 43752079360,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-36/ieeg/sub-36_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s160808509440--def09664493727d5a6865221965d4b33f947f0f6079a7fc69f2299d5eb2047ff.eeg",
+      "declared_size": 160808509440,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-37/ieeg/sub-37_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s53844443136--1f32e95c809d39a6b6f2194222fecaa964a94edc02ca254de1d224cd9273fa63.eeg",
+      "declared_size": 53844443136,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-37/ieeg/sub-37_task-ltm_ieeg.vhdr",
+      "key": "SHA256E-s712--b1824b30aabd8db0a47569e9b4ad28113a3d674455d17e3a1b259df5e298f532.vhdr",
+      "declared_size": 712,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-38/ieeg/sub-38_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s119315283968--fd9a84847777c6dd98090105370639e7b18a0ab8f76e4de5f58f3b6779a948d2.eeg",
+      "declared_size": 119315283968,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-39/ieeg/sub-39_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s53516697600--71fb4a3bbf4f6f3e1c8c20459208f46544ea0f5abc04a5bf4c0a5d81feb1b0a4.eeg",
+      "declared_size": 53516697600,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-39/ieeg/sub-39_task-ltm_ieeg.vhdr",
+      "key": "SHA256E-s1000--42b72a7812f7df273b13ca0400da90722397669c58a7f918623234a84c38f2d5.vhdr",
+      "declared_size": 1000,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-41/ieeg/sub-41_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s85458862080--dd4dc112ebc36c3e0a6a786feb3c34ffdb0ac90cac605f412c225b6b3aba7f7a.eeg",
+      "declared_size": 85458862080,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-42/ieeg/sub-42_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s27669303296--4f6c12a6d434354ceb304ccaa68e3dea85b408062b4213fc5bdcb6a644d69814.eeg",
+      "declared_size": 27669303296,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-43/ieeg/sub-43_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s50229788672--44447c2f111ba417115f0567e63762d6f59ef6f1de970f6db50c6272597e0c7e.eeg",
+      "declared_size": 50229788672,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-45/ieeg/sub-45_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s84825341952--0267b02242aaa2d8df719af05bda7af431e8fad66b3b04a1538fd0c4d47a6b6f.eeg",
+      "declared_size": 84825341952,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-46/ieeg/sub-46_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s30000087040--e54250b7b072d52e5012edcc97b26c409584f6d02aeb14104a02f123b7aedcc1.eeg",
+      "declared_size": 30000087040,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-47/ieeg/sub-47_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s100969566208--92abc07a6f9bdd5032b6e017de0796377cd682c959a6c38871fd8628cfd76785.eeg",
+      "declared_size": 100969566208,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-47/ieeg/sub-47_task-ltm_ieeg.vhdr",
+      "key": "SHA256E-s1162--84eb489f8e1a8011ada65e558fc5b1d730af53645ceb87d7b419955b64bc5b43.vhdr",
+      "declared_size": 1162,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-48/ieeg/sub-48_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s122098089984--56492cb6e2127e013d57a93e8e2da499c41e312f88912e3285a3fecaf6751366.eeg",
+      "declared_size": 122098089984,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-48/ieeg/sub-48_task-ltm_ieeg.vhdr",
+      "key": "SHA256E-s982--ba3d63189e2d37c9494247f9f0f046fd4da4f43e4e573849805d4b512e8d7163.vhdr",
+      "declared_size": 982,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-50/ieeg/sub-50_task-ltm_ieeg.eeg",
+      "key": "SHA256E-s79196454912--c32d03f400dea946676d2ceeb5e094619cbe41fbb7152291db3f7cca40a64c32.eeg",
+      "declared_size": 79196454912,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-50/ieeg/sub-50_task-ltm_ieeg.vhdr",
+      "key": "SHA256E-s856--c003e6770e0b07dbbda1475c546c8caa6eb6e4aae979eedc3de02abd4b3a1ddf.vhdr",
+      "declared_size": 856,
+      "reason": "absent"
+    }
+  ]
+}
