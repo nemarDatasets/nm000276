@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "SWEC iEEG Dataset",
-  "description": "A fully anonymized long-term intracranial EEG dataset from 40 patients with pharmacoresistant epilepsy recorded at the Sleep-Wake-Epilepsy-Center, University of Bern. The dataset comprises 5376 hours of continuous iEEG with 381 annotated electrographic seizures, sampled at 512 or 1024 Hz and preprocessed with band-pass filtering and median referencing. This resource supports development and validation of seizure detection and neuronal activity modeling algorithms.",
-  "methods_description": "Intracranial strip, grid, and depth electrodes were recorded with 16-bit analog-to-digital conversion at 512 Hz or 1024 Hz sampling rate. Data were digitally band-pass filtered (0.5–150 Hz, 4th-order Butterworth, zero-phase) and median-referenced across channels. Artifact-contaminated channels were removed at source. Seizure onsets and offsets were annotated by a board-certified epileptologist.",
+  "description": "This dataset contains long-term pre-surgical intracranial EEG (iEEG) recordings from 40 patients with pharmacoresistant epilepsy, collected at the Sleep-Wake-Epilepsy-Center (SWEC), University of Bern, in collaboration with ETH Zurich. It comprises approximately 5376 hours of continuous iEEG recorded via strip, grid, and depth electrodes, with 381 annotated electrographic seizures marked by a board-certified epileptologist. The dataset is fully anonymized, with channel and electrode location information withheld to protect patient identity, and is structured in BIDS format for long-term monitoring analysis.",
+  "methods_description": "iEEG was recorded using intracranial strip, grid, and depth electrodes with 16-bit analog-to-digital conversion at sampling rates of 512 Hz or 1024 Hz per subject. Data were digitally band-pass filtered from 0.5-150 Hz using a 4th-order Butterworth zero-phase filter, referenced to the median across channels, and channels with artifacts were removed at the source. Seizure onsets and offsets were manually annotated by a board-certified epileptologist.",
   "license": "CDLA-Permissive-2.0",
   "dataset_type": "raw",
   "authors": {
@@ -15,47 +15,42 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "epilepsy"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "intracranial EEG"
     },
     {
       "term": "seizure detection"
     },
     {
-      "term": "pharmacoresistant epilepsy"
-    },
-    {
       "term": "long-term monitoring"
-    },
-    {
-      "term": "neural signal processing"
     },
     {
       "term": "BIDS"
     },
     {
-      "term": "anonymized"
+      "term": "SEEG"
     },
     {
-      "term": "clinical neurophysiology"
+      "term": "anonymized electrode locations"
     },
     {
-      "term": "SWEC"
-    },
-    {
-      "term": "BrainVision"
-    },
-    {
-      "term": "pre-surgical"
+      "term": "foundation model"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.48550/arXiv.2506.20354",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000276",
