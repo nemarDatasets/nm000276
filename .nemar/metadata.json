@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "SWEC iEEG Dataset",
-  "description": "This dataset contains long-term pre-surgical intracranial EEG (iEEG) recordings from 40 patients with pharmacoresistant epilepsy, collected at the Sleep-Wake-Epilepsy-Center (SWEC), University of Bern, in collaboration with ETH Zurich. It comprises approximately 5376 hours of continuous iEEG recorded via strip, grid, and depth electrodes, with 381 annotated electrographic seizures marked by a board-certified epileptologist. The dataset is fully anonymized, with channel and electrode location information withheld to protect patient identity, and is structured in BIDS format for long-term monitoring analysis.",
-  "methods_description": "iEEG was recorded using intracranial strip, grid, and depth electrodes with 16-bit analog-to-digital conversion at sampling rates of 512 Hz or 1024 Hz per subject. Data were digitally band-pass filtered from 0.5-150 Hz using a 4th-order Butterworth zero-phase filter, referenced to the median across channels, and channels with artifacts were removed at the source. Seizure onsets and offsets were manually annotated by a board-certified epileptologist.",
+  "description": "Long-term pre-surgical intracranial EEG (iEEG) recordings from 40 patients with pharmacoresistant epilepsy, collected at the Sleep-Wake-Epilepsy-Center of Inselspital, University of Bern, in collaboration with ETH Zurich. The dataset contains 5376 hours of continuous recording with 381 annotated electrographic seizures. Data are fully anonymized, with generic channel names (recorded as generic SEEG type although electrodes are mixed strip, grid, and depth) and no electrode coordinates. It is converted to BIDS from the public SWEC-ETHZ HDF5 release and re-hosts the 40-subject / 378-file public subset of that release (http://ieeg-swez.ethz.ch/).",
+  "methods_description": "Recordings used intracranial strip, grid, and depth electrodes with 16-bit analog-to-digital conversion at 512 or 1024 Hz. Signals were digitally band-pass filtered at 0.5-150 Hz (4th-order zero-phase Butterworth), artifact channels were removed, and a median reference was applied. Seizure onsets and offsets were annotated by a board-certified epileptologist. Data were converted from HDF5 to BrainVision BIDS format.",
   "license": "CDLA-Permissive-2.0",
   "dataset_type": "raw",
   "authors": {
@@ -15,9 +15,10 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "iEEG"
     },
     {
       "term": "Epilepsy",
@@ -25,32 +26,22 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "seizure detection"
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
     },
     {
       "term": "long-term monitoring"
     },
     {
-      "term": "BIDS"
-    },
-    {
-      "term": "SEEG"
-    },
-    {
-      "term": "anonymized electrode locations"
-    },
-    {
-      "term": "foundation model"
+      "term": "seizure detection"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.48550/arXiv.2506.20354",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000276",
@@ -69,7 +60,7 @@
     "ieeg"
   ],
   "sizes": [
-    "3.3 TB (3089 files)"
+    "2.96 TB (3089 files)"
   ],
   "formats": [
     ".eeg",
