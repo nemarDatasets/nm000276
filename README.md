@@ -55,8 +55,9 @@ release the same patient is folder `ID{NN+18}` (e.g. `sub-07` = `ID25`,
 `sub-50` = `ID68`): the virtual-dataset index of every `IDxx_total.h5` still
 points to `ID{xx-18}_part_*.h5`, and the 40 v1.0.0 subjects match folders
 ID19-ID68 exactly in channel count, sampling rate, sample count and (for 39 of
-40) seizure table. The same converter reproduces the v1.0.0 `.eeg` files
-byte-for-byte (sha256 identical) from the Hugging Face files. The
+40) seizure table. The same converter reproduces 39 of the 40 v1.0.0 `.eeg`
+files byte-for-byte (sha256 identical) from the Hugging Face files. The
+exception is `sub-02` (see Corrections). The
 `participants.tsv` column `source_id` records the Hugging Face folder of each
 subject.
 
@@ -68,10 +69,15 @@ where compared). They are not added again. The card's figures (68 subjects,
 9328 hours, 704 ictal events) count these 18 copies; the 50 distinct patients
 total 6672 hours and 460 annotated seizures.
 
-## Known differences from the source
-- `sub-01`: v1.0.0 shipped no `events.tsv`; the Hugging Face release annotates
-  25 seizures for this patient (folder `ID19`), whose signal is identical to
-  the v1.0.0 file. v1.1.0 adds them (see CHANGES).
+## Corrections in v1.1.0
+- `sub-02`: in the v1.0.0 file, 6 of the 20 source parts (parts 1, 6, 9, 14,
+  15 and 16; 170,454,540 samples, about 92.5 h) were all zeros. The source
+  holds real signal there (Hugging Face `ID20`); the other 14 parts are
+  identical. v1.1.0 replaces the file with the complete conversion, same size,
+  sampling rate and channels.
+- `sub-01`: v1.0.0 shipped no `events.tsv`. The Hugging Face release annotates
+  25 seizures for this patient (folder `ID19`), whose signal is byte-identical
+  to the v1.0.0 file. v1.1.0 adds them.
 
 ## How to cite
 Carzaniga, F., Hersche, M., Sebastian, A., Schindler, K. & Rahimi, A.

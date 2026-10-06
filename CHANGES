@@ -1,5 +1,6 @@
 1.1.0 - 2026-10-06
 	- Added 10 subjects (sub-07, sub-13, sub-14, sub-17, sub-21, sub-25, sub-26, sub-40, sub-44, sub-49; 1296.0 h, 54 seizures) from the Hugging Face release NeuroTec/SWEC_iEEG_Dataset, revision 584e9d29313ad6d2ed675b5d5202240f4ff75970 (folders ID25, ID31, ID32, ID35, ID39, ID43, ID44, ID58, ID62, ID67), converted losslessly with the v1.0.0 conventions.
+	- Replaced sub-02 .eeg: in v1.0.0, source parts 1, 6, 9, 14, 15 and 16 (170,454,540 samples, about 92.5 h) were all zeros. They now hold the source signal (Hugging Face ID20); the other 14 parts are unchanged and byte-identical.
 	- Added sub-01 events.tsv with the 25 seizure annotations of the Hugging Face release (folder ID19); participants.tsv n_seizures for sub-01 updated from 0 to 25.
 	- participants.tsv: new column source_id (Hugging Face folder of each subject).
 	- README: subject crosswalk (sub-NN = Hugging Face ID{NN+18}), the 18 duplicate Hugging Face folders (ID01-ID18), totals for 50 subjects, quoted license and disclaimer of the Hugging Face card.
