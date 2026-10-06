@@ -1,41 +1,51 @@
-participant_id	age	sex	hand	n_channels	sampling_frequency	recording_duration_hours	n_seizures
-sub-01	n/a	n/a	n/a	29	1024.0	21.700	0
-sub-02	n/a	n/a	n/a	88	512.0	293.359	2
-sub-03	n/a	n/a	n/a	66	512.0	235.218	2
-sub-04	n/a	n/a	n/a	64	512.0	158.384	4
-sub-05	n/a	n/a	n/a	32	1024.0	42.449	33
-sub-06	n/a	n/a	n/a	32	1024.0	40.694	14
-sub-08	n/a	n/a	n/a	34	1024.0	87.576	1
-sub-09	n/a	n/a	n/a	32	1024.0	145.987	8
-sub-10	n/a	n/a	n/a	75	512.0	68.952	4
-sub-11	n/a	n/a	n/a	61	1024.0	143.787	70
-sub-12	n/a	n/a	n/a	48	1024.0	40.876	27
-sub-15	n/a	n/a	n/a	104	512.0	53.607	1
-sub-16	n/a	n/a	n/a	56	1024.0	191.417	9
-sub-18	n/a	n/a	n/a	24	1024.0	161.392	60
-sub-19	n/a	n/a	n/a	98	512.0	195.917	2
-sub-20	n/a	n/a	n/a	34	1024.0	177.059	5
-sub-22	n/a	n/a	n/a	42	1024.0	205.073	5
-sub-23	n/a	n/a	n/a	33	1024.0	82.696	3
-sub-24	n/a	n/a	n/a	63	1024.0	87.778	2
-sub-27	n/a	n/a	n/a	47	1024.0	157.294	1
-sub-28	n/a	n/a	n/a	86	512.0	140.513	21
-sub-29	n/a	n/a	n/a	32	1024.0	330.419	3
-sub-30	n/a	n/a	n/a	57	1024.0	28.389	6
-sub-31	n/a	n/a	n/a	60	512.0	140.419	6
-sub-32	n/a	n/a	n/a	64	1024.0	177.206	2
-sub-33	n/a	n/a	n/a	89	512.0	161.528	1
-sub-34	n/a	n/a	n/a	69	512.0	112.609	2
-sub-35	n/a	n/a	n/a	22	1024.0	134.869	1
-sub-36	n/a	n/a	n/a	54	1024.0	201.954	3
-sub-37	n/a	n/a	n/a	24	1024.0	152.148	2
-sub-38	n/a	n/a	n/a	62	1024.0	130.509	3
-sub-39	n/a	n/a	n/a	40	1024.0	90.733	12
-sub-41	n/a	n/a	n/a	54	1024.0	107.325	15
-sub-42	n/a	n/a	n/a	74	512.0	50.715	8
-sub-43	n/a	n/a	n/a	76	512.0	89.643	6
-sub-45	n/a	n/a	n/a	64	512.0	179.768	4
-sub-46	n/a	n/a	n/a	56	1024.0	36.331	20
-sub-47	n/a	n/a	n/a	49	1024.0	139.744	8
-sub-48	n/a	n/a	n/a	39	1024.0	212.316	2
-sub-50	n/a	n/a	n/a	32	1024.0	167.839	3
+participant_id	age	sex	hand	n_channels	sampling_frequency	recording_duration_hours	n_seizures	source_id
+sub-01	n/a	n/a	n/a	29	1024.0	21.700	25	ID19
+sub-02	n/a	n/a	n/a	88	512.0	293.359	2	ID20
+sub-03	n/a	n/a	n/a	66	512.0	235.218	2	ID21
+sub-04	n/a	n/a	n/a	64	512.0	158.384	4	ID22
+sub-05	n/a	n/a	n/a	32	1024.0	42.449	33	ID23
+sub-06	n/a	n/a	n/a	32	1024.0	40.694	14	ID24
+sub-07	n/a	n/a	n/a	128	512.0	109.406	4	ID25
+sub-08	n/a	n/a	n/a	34	1024.0	87.576	1	ID26
+sub-09	n/a	n/a	n/a	32	1024.0	145.987	8	ID27
+sub-10	n/a	n/a	n/a	75	512.0	68.952	4	ID28
+sub-11	n/a	n/a	n/a	61	1024.0	143.787	70	ID29
+sub-12	n/a	n/a	n/a	48	1024.0	40.876	27	ID30
+sub-13	n/a	n/a	n/a	32	1024.0	42.390	17	ID31
+sub-14	n/a	n/a	n/a	32	1024.0	212.217	2	ID32
+sub-15	n/a	n/a	n/a	104	512.0	53.607	1	ID33
+sub-16	n/a	n/a	n/a	56	1024.0	191.417	9	ID34
+sub-17	n/a	n/a	n/a	64	1024.0	103.991	7	ID35
+sub-18	n/a	n/a	n/a	24	1024.0	161.392	60	ID36
+sub-19	n/a	n/a	n/a	98	512.0	195.917	2	ID37
+sub-20	n/a	n/a	n/a	34	1024.0	177.059	5	ID38
+sub-21	n/a	n/a	n/a	60	1024.0	129.599	2	ID39
+sub-22	n/a	n/a	n/a	42	1024.0	205.073	5	ID40
+sub-23	n/a	n/a	n/a	33	1024.0	82.696	3	ID41
+sub-24	n/a	n/a	n/a	63	1024.0	87.778	2	ID42
+sub-25	n/a	n/a	n/a	126	512.0	63.181	2	ID43
+sub-26	n/a	n/a	n/a	60	1024.0	150.253	2	ID44
+sub-27	n/a	n/a	n/a	47	1024.0	157.294	1	ID45
+sub-28	n/a	n/a	n/a	86	512.0	140.513	21	ID46
+sub-29	n/a	n/a	n/a	32	1024.0	330.419	3	ID47
+sub-30	n/a	n/a	n/a	57	1024.0	28.389	6	ID48
+sub-31	n/a	n/a	n/a	60	512.0	140.419	6	ID49
+sub-32	n/a	n/a	n/a	64	1024.0	177.206	2	ID50
+sub-33	n/a	n/a	n/a	89	512.0	161.528	1	ID51
+sub-34	n/a	n/a	n/a	69	512.0	112.609	2	ID52
+sub-35	n/a	n/a	n/a	22	1024.0	134.869	1	ID53
+sub-36	n/a	n/a	n/a	54	1024.0	201.954	3	ID54
+sub-37	n/a	n/a	n/a	24	1024.0	152.148	2	ID55
+sub-38	n/a	n/a	n/a	62	1024.0	130.509	3	ID56
+sub-39	n/a	n/a	n/a	40	1024.0	90.733	12	ID57
+sub-40	n/a	n/a	n/a	92	512.0	138.163	7	ID58
+sub-41	n/a	n/a	n/a	54	1024.0	107.325	15	ID59
+sub-42	n/a	n/a	n/a	74	512.0	50.715	8	ID60
+sub-43	n/a	n/a	n/a	76	512.0	89.643	6	ID61
+sub-44	n/a	n/a	n/a	60	1024.0	235.142	7	ID62
+sub-45	n/a	n/a	n/a	64	512.0	179.768	4	ID63
+sub-46	n/a	n/a	n/a	56	1024.0	36.331	20	ID64
+sub-47	n/a	n/a	n/a	49	1024.0	139.744	8	ID65
+sub-48	n/a	n/a	n/a	39	1024.0	212.316	2	ID66
+sub-49	n/a	n/a	n/a	63	512.0	111.707	4	ID67
+sub-50	n/a	n/a	n/a	32	1024.0	167.839	3	ID68

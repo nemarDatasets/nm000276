@@ -23,5 +23,8 @@
     "n_seizures": {
         "Description": "Number of annotated electrographic seizures.",
         "Units": "count"
+    },
+    "source_id": {
+        "Description": "Folder label of this patient in the Hugging Face release NeuroTec/SWEC_iEEG_Dataset (revision 584e9d29313ad6d2ed675b5d5202240f4ff75970). sub-NN corresponds to ID{NN+18}."
     }
 }
