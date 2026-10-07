@@ -15,12 +15,17 @@
   "ReferencesAndLinks": [
     "https://doi.org/10.48550/arXiv.2506.20354",
     "http://ieeg-swez.ethz.ch/",
-    "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg"
+    "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg",
+    "https://huggingface.co/datasets/NeuroTec/SWEC_iEEG_Dataset"
   ],
   "SourceDatasets": [
     {
       "URL": "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg",
       "Version": "public_access"
+    },
+    {
+      "URL": "https://huggingface.co/datasets/NeuroTec/SWEC_iEEG_Dataset/tree/584e9d29313ad6d2ed675b5d5202240f4ff75970",
+      "Version": "584e9d29313ad6d2ed675b5d5202240f4ff75970"
     }
   ],
   "GeneratedBy": [
@@ -28,8 +33,13 @@
       "Name": "swec-bids-converter",
       "Description": "Streaming HDF5 (data/ieeg, µV) -> BrainVision BIDS conversion; channels indexed in original order, seizures mapped to events, electrodes n/a (anonymized).",
       "CodeURL": "https://github.com/IBM/multi-variate-parallel-transformer"
+    },
+    {
+      "Name": "laneH_convert.py (nm000276 extension)",
+      "Version": "2026-10-06",
+      "Description": "Streaming HDF5 (Hugging Face NeuroTec/SWEC_iEEG_Dataset @584e9d29, data/ieeg float32 µV) -> BrainVision BIDS with the v1.0.0 conventions; reproduces v1.0.0 .eeg files byte-for-byte; used for the subjects added in v1.1.0 and sub-01 events."
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000276",
-  "Version": "1.0.0"
+  "Version": "1.1.0"
 }

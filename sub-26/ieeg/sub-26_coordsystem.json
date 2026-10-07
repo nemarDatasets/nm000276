@@ -1,0 +1,5 @@
+{
+    "iEEGCoordinateSystem": "Other",
+    "iEEGCoordinateSystemDescription": "Electrode coordinates are not available; the public SWEC release is anonymized and does not disclose electrode localization. All coordinates are set to n/a.",
+    "iEEGCoordinateUnits": "n/a"
+}
