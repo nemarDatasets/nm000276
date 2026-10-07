@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SWEC iEEG Dataset",
-  "description": "Long-term pre-surgical intracranial EEG (iEEG) recordings from 40 patients with pharmacoresistant epilepsy, collected at the Sleep-Wake-Epilepsy-Center of Inselspital, University of Bern, in collaboration with ETH Zurich. The dataset contains 5376 hours of continuous recording with 381 annotated electrographic seizures. Data are fully anonymized, with generic channel names (recorded as generic SEEG type although electrodes are mixed strip, grid, and depth) and no electrode coordinates. It is converted to BIDS from the public SWEC-ETHZ HDF5 release and re-hosts the 40-subject / 378-file public subset of that release (http://ieeg-swez.ethz.ch/).",
-  "methods_description": "Recordings used intracranial strip, grid, and depth electrodes with 16-bit analog-to-digital conversion at 512 or 1024 Hz. Signals were digitally band-pass filtered at 0.5-150 Hz (4th-order zero-phase Butterworth), artifact channels were removed, and a median reference was applied. Seizure onsets and offsets were annotated by a board-certified epileptologist. Data were converted from HDF5 to BrainVision BIDS format.",
+  "description": "Long-term pre-surgical intracranial EEG (iEEG) recordings from 50 patients with pharmacoresistant epilepsy, collected at the Sleep-Wake-Epilepsy-Center (SWEC), Inselspital, University of Bern, in collaboration with ETH Zurich. The dataset comprises 6672 hours of continuous, fully anonymized recordings with 460 seizures annotated by an epileptologist. It is provided in BIDS format with BrainVision files and seizure events.",
+  "methods_description": "Intracranial strip, grid, and depth electrodes were recorded with 16-bit analog-to-digital conversion at 512 or 1024 Hz. Signals were band-pass filtered at 0.5-150 Hz (4th-order Butterworth, zero-phase) and median-referenced, and artifact-laden channels were removed at the source. Seizure onsets and offsets were annotated by a board-certified epileptologist. HDF5 source files were converted losslessly to BrainVision BIDS.",
   "license": "CDLA-Permissive-2.0",
   "dataset_type": "raw",
   "authors": {
@@ -34,7 +34,7 @@
       "term": "long-term monitoring"
     },
     {
-      "term": "seizure detection"
+      "term": "pre-surgical evaluation"
     }
   ],
   "related_identifiers": [
@@ -60,7 +60,7 @@
     "ieeg"
   ],
   "sizes": [
-    "2.96 TB (3089 files)"
+    "4.03 TB (4196 files)"
   ],
   "formats": [
     ".eeg",
@@ -71,5 +71,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "7c5e8b371a58f594ea45db632aa6bc1afe2ce278c4989e52851a473c7fc5f1c4"
+  "source_hash": "d3f8487f28249c89dbf34a104e319b0f4bd0a0eeecaff669b864e549b4abae9b"
 }
