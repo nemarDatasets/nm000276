@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SWEC iEEG Dataset",
-  "description": "Long-term pre-surgical intracranial EEG (iEEG) recordings from 50 patients with pharmacoresistant epilepsy, collected at the Sleep-Wake-Epilepsy-Center (SWEC), Inselspital, University of Bern, in collaboration with ETH Zurich. The dataset comprises 6672 hours of continuous, fully anonymized recordings with 460 seizures annotated by an epileptologist. It is provided in BIDS format with BrainVision files and seizure events.",
-  "methods_description": "Intracranial strip, grid, and depth electrodes were recorded with 16-bit analog-to-digital conversion at 512 or 1024 Hz. Signals were band-pass filtered at 0.5-150 Hz (4th-order Butterworth, zero-phase) and median-referenced, and artifact-laden channels were removed at the source. Seizure onsets and offsets were annotated by a board-certified epileptologist. HDF5 source files were converted losslessly to BrainVision BIDS.",
+  "description": "Long-term pre-surgical intracranial EEG (iEEG) recordings from 50 patients with pharmacoresistant epilepsy, collected at the Sleep-Wake-Epilepsy-Center (SWEC), Inselspital, University of Bern, in collaboration with ETH Zurich. The dataset comprises about 6672 hours of continuous, fully anonymized iEEG with 460 expert-annotated seizures. It is converted to BIDS from the public SWEC-ETHZ release and the authors' Hugging Face release.",
+  "methods_description": "Intracranial strip, grid and depth electrodes were recorded with 16-bit analog-to-digital conversion at 512 or 1024 Hz. Signals were band-pass filtered at 0.5-150 Hz (4th-order Butterworth, zero-phase) and median-referenced. Artifact channels were removed at the source. Seizure onsets and offsets were annotated by a board-certified epileptologist. Source HDF5 data were losslessly converted to BrainVision format in BIDS.",
   "license": "CDLA-Permissive-2.0",
   "dataset_type": "raw",
   "authors": {
@@ -60,10 +60,11 @@
     "ieeg"
   ],
   "sizes": [
-    "4.03 TB (4196 files)"
+    "4.91 TB (5146 files)"
   ],
   "formats": [
     ".eeg",
+    ".h5",
     ".json",
     ".md",
     ".tsv",
@@ -71,5 +72,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "d3f8487f28249c89dbf34a104e319b0f4bd0a0eeecaff669b864e549b4abae9b"
+  "source_hash": "0fb1492cfd850e0bdafdb453e8f0e6b52893c3d9c935e3c81957ac1f4fa78f97"
 }
