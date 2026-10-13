@@ -1,3 +1,6 @@
+1.2.0 - 2026-10-07
+	- Added sourcedata/huggingface-NeuroTec-SWEC_iEEG_Dataset-584e9d29/: the original Hugging Face HDF5 files (byte for byte, sha256 equal to the Hugging Face LFS sha256 at revision 584e9d29) of the folders used for the 1.1.0 changes: ID25, ID31, ID32, ID35, ID39, ID43, ID44, ID58, ID62, ID67 (the 10 subjects added in 1.1.0), ID20 (source of the replaced sub-02 .eeg) and ID19 (source of the sub-01 seizure events). Note: as released, each IDxx_total.h5 index refers to ID{xx-18}_part_*.h5 file names.
+
 1.1.0 - 2026-10-06
 	- Added 10 subjects (sub-07, sub-13, sub-14, sub-17, sub-21, sub-25, sub-26, sub-40, sub-44, sub-49; 1296.0 h, 54 seizures) from the Hugging Face release NeuroTec/SWEC_iEEG_Dataset, revision 584e9d29313ad6d2ed675b5d5202240f4ff75970 (folders ID25, ID31, ID32, ID35, ID39, ID43, ID44, ID58, ID62, ID67), converted losslessly with the v1.0.0 conventions.
 	- Replaced sub-02 .eeg: in v1.0.0, source parts 1, 6, 9, 14, 15 and 16 (170,454,540 samples, about 92.5 h) were all zeros. They now hold the source signal (Hugging Face ID20); the other 14 parts are unchanged and byte-identical.
