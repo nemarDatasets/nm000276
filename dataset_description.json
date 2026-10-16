@@ -1,5 +1,5 @@
 {
-  "Name": "SWEC iEEG Dataset",
+  "Name": "Carzaniga-2025-foundation-10.48550/arxiv.2506.20354",
   "BIDSVersion": "1.9.0",
   "DatasetType": "raw",
   "License": "CDLA-Permissive-2.0",
@@ -41,5 +41,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000276",
-  "Version": "1.2.0"
+  "Version": "1.2.1"
 }
